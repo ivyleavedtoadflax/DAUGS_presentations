@@ -64,7 +64,7 @@ plot(
 # add polygons
 polygon(
   poly3, 
-  col = gov_cols['turquoise'],
+  col = gov_cols['turquoise']
 ) # 1-beta
 
 polygon(
@@ -126,8 +126,8 @@ text(
 
 # beta annotation
 arrows(
-  x0 = 4, 
-  y0 = -0.01, 
+  x0 = 5, 
+  y0 = -0.03, 
   x1 = 3.5, 
   y1 = 0.01, 
   lwd = 1, 
@@ -135,9 +135,9 @@ arrows(
 )
 
 text(
-  x = 4.1, 
-  y = -0.015, 
-  expression(alpha/2), 
+  x = 5.1, 
+  y = -0.04, 
+  expression(alpha), 
   cex = 1.5
 )
 
